@@ -1,6 +1,6 @@
 {
-  "name": "Venus OS Dashboard",
-  "homeassistant": "2023.1.0",
+  "name": "Victron-Vensus-Dashboard",
+  "homeassistant": "2026.1.0",
   "render_readme": true,
   "content_in_root": false
 }
