@@ -44,22 +44,6 @@ export function tab1Render(appendTo) {
     const editorDiv = document.createElement('div');
     editorDiv.classList.add('editor');
     
-    /*// Demo Mode
-    const demoRow = document.createElement('div');
-    demoRow.classList.add('row');
-    const demoLabel = document.createElement('div');
-    demoLabel.classList.add('cell', 'left');
-    demoLabel.textContent = t("tab1Render", "demo_mode");//'Mode Demo';
-    const demoSwitchContainer = document.createElement('div');
-    demoSwitchContainer.classList.add('cell', 'right');
-    const demoSwitch = document.createElement('ha-switch');
-    demoSwitch.setAttribute('data-path', 'demo');
-    if (appendTo._config.demo === true) demoSwitch.setAttribute('checked', '');
-    demoSwitchContainer.appendChild(demoSwitch);
-    demoRow.appendChild(demoLabel);
-    demoRow.appendChild(demoSwitchContainer);
-    editorDiv.appendChild(demoRow);*/
-    
     // Theme choice
     const themeRow = document.createElement('div');
     themeRow.classList.add('col');
@@ -359,7 +343,7 @@ export function subtabRender(box, config, hass, appendTo) {
             <div class="col inner">
                 <ha-entity-picker
                     class="cell"
-                    style="margin-top: 10px;"
+                    style="width: 100%; margin-bottom: 8px;"
                     label="${t("subtabRender", "entity_header")}"
                     id="header_sensor"
                     data-path="devices.${box}.headerEntity"
@@ -367,7 +351,7 @@ export function subtabRender(box, config, hass, appendTo) {
                 </ha-entity-picker>
                 <ha-entity-picker
                     class="cell"
-                    style="margin-top: 10px;"
+                    style="width: 100%; margin-bottom: 8px;"
                     label="${t("subtabRender", "entity_footer")}"
                     id="footer1_sensor"
                     data-path="devices.${box}.footerEntity1"
@@ -375,7 +359,7 @@ export function subtabRender(box, config, hass, appendTo) {
                 </ha-entity-picker>
                 <ha-entity-picker
                     class="cell"
-                    style="margin-top: 10px;"
+                    style="width: 100%; margin-bottom: 8px;"
                     label="${t("subtabRender", "entity2_footer")}"
                     id="footer2_sensor"
                     data-path="devices.${box}.footerEntity2"
@@ -383,7 +367,7 @@ export function subtabRender(box, config, hass, appendTo) {
                 </ha-entity-picker>
                 <ha-entity-picker
                     class="cell"
-                    style="margin-top: 10px;"
+                    style="width: 100%; margin-bottom: 8px;"
                     label="${t("subtabRender", "entity3_footer")}"
                     id="footer3_sensor"
                     data-path="devices.${box}.footerEntity3"
