@@ -1,10 +1,4 @@
 # 🗲 - Victron Venus Dashboard - 🗲
-
-![Overview](https://github.com/user-attachments/assets/5c450676-acba-4c8b-a558-dc36ff85c208)
-
-<img src="https://github.com/user-attachments/assets/7148bde1-ef7e-4869-b67a-e442fc76ba14" width="300">
-<img src="https://github.com/user-attachments/assets/16c48420-e28a-472e-b3df-fe50922d1e70" width="300">
-
 ## **What is Victron Venus Dashboard?**
 
 Victron Venus Dashboard is a custom card that replicates the look and feel of the Victron Venus GUI v2 for the [Home Assistant](https://www.home-assistant.io/) Dashboard UI.
