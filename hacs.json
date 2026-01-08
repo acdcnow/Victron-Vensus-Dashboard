@@ -1,6 +1,7 @@
 {
-  "name": "Victron-Vensus-Dashboard",
+  "name": "Victron Venus Dashboard",
   "homeassistant": "2026.1.0",
   "render_readme": true,
-  "content_in_root": false
+  "content_in_root": false,
+  "filename": "Victron-Venus-Dashboard.js"
 }
