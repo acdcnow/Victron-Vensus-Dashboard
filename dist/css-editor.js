@@ -53,6 +53,15 @@ export function css(user) {
             .cell{
                 flex: 1; 
             }
+
+            /* Ensure entity pickers take full width when stacked */
+            ha-entity-picker.cell {
+                width: 100%;
+            }
+
+            ha-expansion-panel {
+                margin-bottom: 8px;
+            }
             
             .cellx1-5{
                 flex: 1.5; 
@@ -99,4 +108,3 @@ export function css(user) {
     return css;
 
 }
-  
